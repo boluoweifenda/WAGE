@@ -254,3 +254,4 @@ Epoch: 192  Loss: 6.457746 Train: 0.0496 Test: 0.1055 FPS: 2240
 Epoch: 193  Loss: 6.518927 Train: 0.0515 Test: 0.1175 FPS: 2241 
 Epoch: 194  Loss: 6.353534 Train: 0.0486 Test: 0.1093 FPS: 2240 
 Epoch: 195  Loss: 6.394169 Train: 0.0500 Test: 0.1138 FPS: 2241 
+Epoch: 196  Loss: 6.500205 Train: 0.0508 Test: 0.1123 FPS: 2241 
