@@ -181,3 +181,11 @@ Epoch: 119  Loss: 7.084054 Train: 0.0576 Test: 0.1057 FPS: 2227
 Epoch: 120  Loss: 7.201355 Train: 0.0569 Test: 0.0991 FPS: 2228 S BEST 
 Epoch: 121  Loss: 7.149871 Train: 0.0589 Test: 0.1139 FPS: 2229 
 Epoch: 122  Loss: 7.093234 Train: 0.0563 Test: 0.1096 FPS: 2227 
+Epoch: 123  Loss: 7.185316 Train: 0.0585 Test: 0.1090 FPS: 2230 
+Epoch: 124  Loss: 6.962293 Train: 0.0555 Test: 0.1088 FPS: 2227 
+Epoch: 125  Loss: 7.004013 Train: 0.0548 Test: 0.1240 FPS: 2230 
+Epoch: 126  Loss: 7.040227 Train: 0.0572 Test: 0.1194 FPS: 2229 
+Epoch: 127  Loss: 7.104682 Train: 0.0570 Test: 0.1077 FPS: 2225 
+Epoch: 128  Loss: 6.946112 Train: 0.0554 Test: 0.1119 FPS: 2228 
+Epoch: 129  Loss: 6.939913 Train: 0.0551 Test: 0.1208 FPS: 2232 
+Epoch: 130  Loss: 7.016218 Train: 0.0556 Test: 0.1027 FPS: 2231 
