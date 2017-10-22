@@ -223,3 +223,34 @@ Epoch: 161  Loss: 6.623751 Train: 0.0519 Test: 0.1006 FPS: 2227
 Epoch: 162  Loss: 6.725552 Train: 0.0531 Test: 0.1064 FPS: 2231 
 Epoch: 163  Loss: 6.520165 Train: 0.0505 Test: 0.1276 FPS: 2231 
 Epoch: 164  Loss: 6.692438 Train: 0.0532 Test: 0.0984 FPS: 2231 S BEST 
+Epoch: 165  Loss: 6.620927 Train: 0.0522 Test: 0.1098 FPS: 2228 
+Epoch: 166  Loss: 6.660109 Train: 0.0521 Test: 0.1259 FPS: 2231 
+Epoch: 167  Loss: 6.597620 Train: 0.0511 Test: 0.1331 FPS: 2231 
+Epoch: 168  Loss: 6.620331 Train: 0.0525 Test: 0.1096 FPS: 2231 
+Epoch: 169  Loss: 6.628752 Train: 0.0524 Test: 0.1353 FPS: 2232 
+Epoch: 170  Loss: 6.560634 Train: 0.0510 Test: 0.1203 FPS: 2234 
+Epoch: 171  Loss: 6.659952 Train: 0.0520 Test: 0.1208 FPS: 2233 
+Epoch: 172  Loss: 6.606139 Train: 0.0519 Test: 0.1085 FPS: 2231 
+Epoch: 173  Loss: 6.519796 Train: 0.0502 Test: 0.1139 FPS: 2233 
+Epoch: 174  Loss: 6.547452 Train: 0.0503 Test: 0.0937 FPS: 2233 S BEST 
+Epoch: 175  Loss: 6.424818 Train: 0.0505 Test: 0.1186 FPS: 2231 
+Epoch: 176  Loss: 6.517854 Train: 0.0506 Test: 0.1048 FPS: 2229 
+Epoch: 177  Loss: 6.499781 Train: 0.0508 Test: 0.1219 FPS: 2240 
+Epoch: 178  Loss: 6.529844 Train: 0.0505 Test: 0.1016 FPS: 2240 
+Epoch: 179  Loss: 6.502359 Train: 0.0503 Test: 0.1194 FPS: 2242 
+Epoch: 180  Loss: 6.622246 Train: 0.0524 Test: 0.1098 FPS: 2240 
+Epoch: 181  Loss: 6.496199 Train: 0.0499 Test: 0.1309 FPS: 2242 
+Epoch: 182  Loss: 6.499381 Train: 0.0507 Test: 0.1364 FPS: 2238 
+Epoch: 183  Loss: 6.438455 Train: 0.0499 Test: 0.0986 FPS: 2240 
+Epoch: 184  Loss: 6.478922 Train: 0.0506 Test: 0.1022 FPS: 2224 
+Epoch: 185  Loss: 6.525305 Train: 0.0505 Test: 0.1168 FPS: 2239 
+Epoch: 186  Loss: 6.509365 Train: 0.0519 Test: 0.1215 FPS: 2240 
+Epoch: 187  Loss: 6.475925 Train: 0.0508 Test: 0.1099 FPS: 2240 
+Epoch: 188  Loss: 6.399957 Train: 0.0497 Test: 0.1059 FPS: 2242 
+Epoch: 189  Loss: 6.414789 Train: 0.0493 Test: 0.0969 FPS: 2241 
+Epoch: 190  Loss: 6.442327 Train: 0.0489 Test: 0.1232 FPS: 2240 
+Epoch: 191  Loss: 6.402011 Train: 0.0498 Test: 0.1135 FPS: 2242 
+Epoch: 192  Loss: 6.457746 Train: 0.0496 Test: 0.1055 FPS: 2240 
+Epoch: 193  Loss: 6.518927 Train: 0.0515 Test: 0.1175 FPS: 2241 
+Epoch: 194  Loss: 6.353534 Train: 0.0486 Test: 0.1093 FPS: 2240 
+Epoch: 195  Loss: 6.394169 Train: 0.0500 Test: 0.1138 FPS: 2241 

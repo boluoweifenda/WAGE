@@ -1,2 +1,0 @@
-# WAGE
-test

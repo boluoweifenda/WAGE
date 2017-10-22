@@ -2,13 +2,14 @@ import time
 import tensorflow as tf
 
 Time = time.strftime('%Y-%m-%d', time.localtime())
-Notes = 'vgg7 2888'
+# Notes = 'vgg7 2888'
+Notes = 'lenet5 2888'
 
-GPU = [0]
+GPU = [1]
 batchSize = 128
 validNum = 0
 
-dataSet = 'CIFAR10'  # 'MNIST','SVHN','CIFAR10', 'ILSVRC2012'
+dataSet = 'MNIST'  # 'MNIST','SVHN','CIFAR10', 'ILSVRC2012'
 
 loadModel = None
 # loadModel = '../model/' + '2017-10-27' + '(' + 'vgg7 2888' + ')' + '.tf'
