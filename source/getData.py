@@ -35,7 +35,6 @@ def loadData(dataSet,batchSize,numThread,validNum=0):
     testX, testY = data2Queue(numpyTestX, numpyTestY, 100, 1, False,False)
 
   else:
-    # pathData = '/mnt/HDD1/dataSet/' + dataSet + '/' + 'TFRecord(resized)/'
     pathData = '/home/wushuang/Desktop/TFRecord(resized)/'
     synsetFile = '../dataSet/imagenet_lsvrc_2015_synsets.txt'
     metaFile = '../dataSet/imagenet_metadata.txt'
