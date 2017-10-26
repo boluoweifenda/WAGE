@@ -15,7 +15,7 @@ validNum = 0
 dataSet = 'CIFAR10'  # 'MNIST','SVHN','CIFAR10', 'ILSVRC2012'
 
 loadModel = None
-# loadModel = '../model/' + '2017-10-22' + '(' + 'vgg7 2888' + ')' + '.tf'
+# loadModel = '../model/' + '2017-10-26' + '(' + 'vgg7 2888' + ')' + '.tf'
 saveModel = None
 # saveModel = '../model/' + Time + '(' + Notes + ')' + '.tf'
 
