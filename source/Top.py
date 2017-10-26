@@ -76,6 +76,12 @@ def main():
     errorTest /= batchNumTest
     return errorTest
 
+  if Option.loadModel is not None:
+    print 'Loading model from %s ...' % Option.loadModel,
+    saver.restore(sess, Option.loadModel)
+    print 'Finished',
+    errorTestBest = getErrorTest()
+    print 'Test: %.4f ' % (errorTestBest)
 
   sess.run([Net[0].W_q_op])
   print "\nOptimization Start!\n"
@@ -100,6 +106,8 @@ def main():
     t0 = time.time()
     for batchNum in tqdm(xrange(batchNumTrain),desc = 'Epoch: %03d'%epoch, leave=False, smoothing=0.1):
       _, loss_delta, error_delta = sess.run([train_op, lossTrainBatch, errorTrainBatch])
+      # _, loss_delta, error_delta, H, W, W_q, gradsH, gradsW, gradW_q=\
+      # sess.run([train_op, lossTrainBatch, errorTrainBatch, Net[0].H, Net[0].W, Net[0].W_q, Net[0].gradsH, Net[0].gradsW, gradTrainBatch])
 
       lossTotal += loss_delta
       errorTotal += error_delta
