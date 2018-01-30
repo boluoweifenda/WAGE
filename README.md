@@ -18,7 +18,7 @@ python CIFAR10.py
 ## Config
 Change your configurations in the file
 ```bash
-source/Option.py
+gedit source/Option.py
 ```
 ## Train
 Start training:
