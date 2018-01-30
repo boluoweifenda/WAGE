@@ -97,7 +97,6 @@ def variance_scaling_initializer(factor=2.0, mode='FAN_IN', uniform=False,
         Wm = beta / Quantize.S(bitsW)
         scale = 2 ** round(math.log(Wm / limit, 2.0))
         scale = scale if scale > 1 else 1.0
-        # limit *= scale
         limit = Wm if Wm > limit else limit
       Option.W_scale.append(scale)
       return limit

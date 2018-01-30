@@ -1,5 +1,19 @@
 import cPickle
 import numpy as np
+import os
+import tarfile
+from six.moves import urllib
+
+URL = "https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz"
+"""Download the cifar 100 dataset."""
+if not os.path.exists('cifar-10-python.tar.gz'):
+  print("Downloading...")
+  urllib.request.urlretrieve(URL, 'cifar-10-python.tar.gz')
+if not os.path.exists('cifar-10-batches-py/test_batch'):
+  print("Extracting files...")
+  tar = tarfile.open('cifar-10-python.tar.gz')
+  tar.extractall()
+  tar.close()
 
 trainX = np.zeros([50000,32,32,3], dtype=np.uint8)
 trainY = np.zeros([50000,10], dtype=np.uint8)
@@ -34,4 +48,6 @@ for name in testFileName:
     index += 10000
 
 np.savez('CIFAR10.npz',trainX=trainX,trainY=trainY,testX=testX,testY=testY,label=label)
+
+print 'dataset saved'
 

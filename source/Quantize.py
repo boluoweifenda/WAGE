@@ -7,6 +7,7 @@ bitsA = Option.bitsA
 bitsG = Option.bitsG
 bitsE = Option.bitsE
 bitsR = Option.bitsR
+L2 = Option.L2
 
 Graph = tf.get_default_graph()
 
@@ -38,8 +39,13 @@ def Q(x, bits):
 def W(x,scale = 1.0):
   with tf.name_scope('QW'):
     y = Q(C(x, bitsW), bitsW)
+    # we scale W in QW rather than QA for simplicity
     if scale > 1.8:
       y = y/scale
+    # if bitsG > 15:
+      # when not quantize gradient, we should rescale the scale factor in backprop
+      # otherwise the learning rate will have decay factor scale
+      # x = x * scale
     return x + tf.stop_gradient(y - x)  # skip derivation of Quantize and Clip
 
 def A(x):
@@ -59,7 +65,8 @@ def G(x):
       xmax = tf.reduce_max(tf.abs(x))
       x = x / Shift(xmax)
 
-      norm = Q(LR * x , bitsR)
+      norm = Q(LR * x, bitsR)
+
       norm_sign = tf.sign(norm)
       norm_abs = tf.abs(norm)
       norm_int = tf.floor(norm_abs)
