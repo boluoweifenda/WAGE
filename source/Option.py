@@ -6,7 +6,7 @@ Time = time.strftime('%Y-%m-%d', time.localtime())
 # Notes = 'vgg7 2888'
 Notes = 'temp'
 
-GPU = [2]
+GPU = [0]
 batchSize = 128
 
 dataSet = 'CIFAR10'

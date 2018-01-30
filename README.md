@@ -4,7 +4,7 @@ Code example for the ICLR 2018 oral paper
 
 ## Prerequisites
 - NVIDIA GPU + CUDA + CuDNN
-- Tensorflow
+- Tensorflow (GPU version)
 - tqdm
 
 
