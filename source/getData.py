@@ -29,7 +29,7 @@ def loadData(dataSet,batchSize,numThread):
 
 
 # get dataset from NPZ files
-def loadNPZ(pathNPZ, validNum=0):
+def loadNPZ(pathNPZ):
   data = np.load(pathNPZ)
 
   trainX = data['trainX']
