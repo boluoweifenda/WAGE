@@ -11,7 +11,7 @@ Code example for the ICLR 2018 oral paper
 ## Data
 Download and generate CIFAR10 dataset: 
 ```bash
-cd dataset/
+cd dataSet/
 python CIFAR10.py
 ```
 
