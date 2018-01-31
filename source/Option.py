@@ -23,7 +23,6 @@ bitsE = 8  # bit width of errors
 
 bitsR = 16  # bit width of randomizer
 
-use_batch_norm = False
 lr = tf.Variable(initial_value=0., trainable=False, name='lr', dtype=tf.float32)
 lr_schedule = [0, 8, 200, 1,250,1./8,300,0]
 
