@@ -37,6 +37,6 @@ author={Shuang Wu and Guoqi Li and Feng Chen and Luping Shi},
 booktitle={International Conference on Learning Representations},
 year={2018},
 url={https://openreview.net/forum?id=HJGXzmspb},
-}
+} 
 ```
 
